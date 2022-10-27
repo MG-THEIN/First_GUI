@@ -54,7 +54,7 @@ public class Main implements ActionListener {
         String password = passwordText.getText();
 
         if(user.equals("Alex") && password.equals("1234")){
-            success.setText("You have successfully login!");
+            success.setText("You have successfully login! Thanks you for logging in");
         } else{
             success.setText("Login fail! Please check your user name and password");
         }
